@@ -1,0 +1,17 @@
+.content {
+    color: red;
+}
+
+.contentbody {
+    background-color: blue;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <label for="first">Enter your First No : </label>
+    <input type="text" id="first">
+    <br>
+    <br>
+    <label for="second">Enter your First No : </label>
+    <input type="text" id="second">
+
+    <br>
+    <br>
+    <button onclick="Multiply()">Multiply</button>
+    <button onclick="Divide()">Divid</button>
+
+    <p>Result : </p>
+    <span id="result">0</span>
+    <script src="EvenListenersQ1.js"></script>
+    <script>
+        function Multiply() {
+            num1 = document.getElementById("first").value;
+            num2 = document.getElementById("second").value;
+            document.getElementById("result").innerHTML = num1 * num2;
+        }
+        function Divide() {
+            num1 = document.getElementById("first").value;
+            num2 = document.getElementById("second").value;
+            document.getElementById("result").innerHTML = num1 / num2;
+        }
+    </script>
+</body>
+
+</html>
